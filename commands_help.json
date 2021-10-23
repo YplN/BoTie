@@ -1,0 +1,121 @@
+{
+    "rand": {
+        "command": "rand",
+        "desc": "\"J'peux need pour reroll?\"",
+        "args": [
+            {
+                "key": " ",
+                "doc": "Revoie un nombre aléatoire entre 0 et 100.",
+                "example": "$rand"
+            },
+            {
+                "key": "n",
+                "doc": "Renvoie un nombre aléatoire entre 0 et n.",
+                "example": "$rand 50"
+            }
+        ],
+        "comments": null
+    },
+    "insult": {
+        "command": "insult",
+        "desc": "Une commande toxique...",
+        "args": [
+            {
+                "key": " ",
+                "doc": "Lance une insulte aléatoire.",
+                "example": "$insult"
+            },
+            {
+                "key": "@personne",
+                "doc": "Insulte aléatoirement la personne mentionnée.",
+                "example": "$insult @bidulle"
+            }
+        ],
+        "comments": "Soyez gentils entre vous :)"
+    },
+    "gif": {
+        "command": "gif",
+        "desc": "Gif ou jif?...",
+        "args": [
+            {
+                "key": " ",
+                "doc": "Donne un exemple d'utilisation de la commande.",
+                "example": "$gif"
+            },
+            {
+                "key": "mot_clé1 mot_clé2 @personne",
+                "doc": "Envoie un gif aléatoire correspondant aux mots clefs indiqués à la personne mentionnée.",
+                "example": "$gif chat mignon @bidulle @machin"
+            }
+        ],
+        "comments": null
+    },
+    "remind": {
+        "command": "remind",
+        "desc": "Poke, poke, poke",
+        "args": [
+            {
+                "key": "add",
+                "doc": "S'ajouter à la liste de rappel.",
+                "example": "$remind add"
+            },
+            {
+                "key": "remove",
+                "doc": "Se retirer de la liste de rappel.",
+                "example": "$remind remove"
+            }
+        ],
+        "comments": "En cours de développement, ne fonctionne pas encore.\nAttention, en cas de reset du bot, la liste de rappel est réinitialisée."
+    },
+    "radio": {
+        "command": "radio",
+        "desc": "Bientot youtube...",
+        "args": [
+            {
+                "key": " ",
+                "doc": "Affiche la liste des radios disponibles. Cliquer sur les boutons pour lancer la radio correspondante, et sur \"Stop\" pour l'arrêter.",
+                "example": "$radio"
+            },
+            {
+                "key": "nom_radio",
+                "doc": "Lance la radio correspondante.",
+                "example": "$radio nrj"
+            },
+            {
+                "key": "stop",
+                "doc": "Stoppe la radio.",
+                "example": "$radio stop"
+            }
+        ],
+        "comments": "Il faut être dans un channel vocal pour pouvoir lancer une radio."
+    },
+    "phasmo": {
+        "command": "phasmo",
+        "desc": "Fantôme, es-tu là?...",
+        "args": [
+            {
+                "key": " ",
+                "doc": "Permet de traquer les indices des fantômes dans Phasmophobia.\nCliquer sur les indices si vous voulez les sélectionner (vert) ou les retirer (rouge). La liste des fantômes possibles restants est mis à jour automatiquement.",
+                "example": "$phasmo"
+            }
+        ],
+        "comments": null
+    },
+    "help": {
+        "command": "help",
+        "desc": "Inception...",
+        "args": [
+            {
+                "key": " ",
+                "doc": "Affiche l'aide de toutes les commandes du bot.",
+                "example": "$help"
+            },
+            {
+                "key": "commande",
+                "doc": "Affiche seulement l'aide de la commande demandée",
+                "example": "$help radio"
+            }
+        ],
+        "comments": null
+    }
+}

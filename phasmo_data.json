@@ -1,0 +1,272 @@
+{
+    "evidences": {
+        "Empreintes": {
+            "ghosts": [
+                "banshee",
+                "djinn",
+                "démon",
+                "fantôme",
+                "goryo",
+                "hantu",
+                "myling",
+                "poltergeist"
+            ],
+            "wiki": "https://phasmophobia.fandom.com/wiki/Fingerprints",
+            "emoji": "🖐"
+        },
+        "EMF 5": {
+            "ghosts": [
+                "djinn",
+                "esprit",
+                "goryo",
+                "myling",
+                "ombre",
+                "oni",
+                "spectre"
+            ],
+            "wiki": "https://phasmophobia.fandom.com/wiki/EMF_Level_5",
+            "emoji": "🌈"
+        },
+        "Projecteur DOTS": {
+            "ghosts": [
+                "banshee",
+                "fantôme",
+                "goryo",
+                "oni",
+                "spectre",
+                "yokai",
+                "yurei"
+            ],
+            "wiki": "https://phasmophobia.fandom.com/wiki/D.O.T.S._Projector",
+            "emoji": "🎇"
+        },
+        "Températures glaciales": {
+            "ghosts": [
+                "djinn",
+                "démon",
+                "hantu",
+                "ombre",
+                "oni",
+                "revenant",
+                "yurei"
+            ],
+            "wiki": "https://phasmophobia.fandom.com/wiki/Freezing_Temperatures",
+            "emoji": "🌡"
+        },
+        "Écritures fantômatiques": {
+            "ghosts": [
+                "cauchemar",
+                "démon",
+                "esprit",
+                "myling",
+                "ombre",
+                "poltergeist",
+                "revenant"
+            ],
+            "wiki": "https://phasmophobia.fandom.com/wiki/Ghost_Writing",
+            "emoji": "📖"
+        },
+        "Orbes fantômatiques": {
+            "ghosts": [
+                "banshee",
+                "cauchemar",
+                "hantu",
+                "revenant",
+                "yokai",
+                "yurei"
+            ],
+            "wiki": "https://phasmophobia.fandom.com/wiki/Ghost_Orb",
+            "emoji": "◽◽"
+        },
+        "Spirit box": {
+            "ghosts": [
+                "cauchemar",
+                "esprit",
+                "fantôme",
+                "poltergeist",
+                "spectre",
+                "yokai"
+            ],
+            "wiki": "https://phasmophobia.fandom.com/wiki/Spirit_Box",
+            "emoji": "📻"
+        }
+    },
+    "ghosts": {
+        "banshee": {
+            "name": "banshee",
+            "evidence": [
+                "Empreintes",
+                "Orbes fantômatiques",
+                "Projecteur DOTS"
+            ],
+            "strength": "Cible un seul joueur",
+            "weakness": "Moins agressif près d'un crucifix",
+            "wiki": "https://phasmophobia.fandom.com/wiki/Banshee"
+        },
+        "cauchemar": {
+            "name": "cauchemar",
+            "evidence": [
+                "Spirit box",
+                "Orbes fantômatiques",
+                "Écritures fantômatiques"
+            ],
+            "strength": "Davantage d'attaques dans le noir",
+            "weakness": "Moins d'attaques dans la lumière",
+            "wiki": "https://phasmophobia.fandom.com/wiki/Mare"
+        },
+        "djinn": {
+            "name": "djinn",
+            "evidence": [
+                "EMF 5",
+                "Empreintes",
+                "Températures glaciales"
+            ],
+            "strength": "Plus rapide",
+            "weakness": "Aucune capacité si le courant est coupé",
+            "wiki": "https://phasmophobia.fandom.com/wiki/Jinn"
+        },
+        "démon": {
+            "name": "démon",
+            "evidence": [
+                "Empreintes",
+                "Écritures fantômatiques",
+                "Températures glaciales"
+            ],
+            "strength": "Attaque plus fréquemment",
+            "weakness": "La planche de Ouika ne fait pas perdre de santé mentale",
+            "wiki": "https: //phasmophobia.fandom.com/wiki/Demon"
+        },
+        "esprit": {
+            "name": "esprit",
+            "evidence": [
+                "EMF 5",
+                "Spirit box",
+                "Écritures fantômatiques"
+            ],
+            "strength": "Les bâtons d'encens l'empêche d'attaquer un certain temps",
+            "weakness": "Aucune",
+            "wiki": "https://phasmophobia.fandom.com/wiki/Spirit"
+        },
+        "fantôme": {
+            "name": "fantôme",
+            "evidence": [
+                "Spirit box",
+                "Empreintes",
+                "Projecteur DOTS"
+            ],
+            "strength": "Le regarder réduit la santé mentale",
+            "weakness": "Prendre une photo le fait disparaitre",
+            "wiki": "https://phasmophobia.fandom.com/wiki/Phantom"
+        },
+        "goryo": {
+            "name": "goryo",
+            "evidence": [
+                "EMF 5",
+                "Empreintes",
+                "Projecteur DOTS"
+            ],
+            "strength": "Se montre seulement si personne de près",
+            "weakness": "Ne s'éloigne pas de sa pièce",
+            "wiki": "https://phasmophobia.fandom.com/wiki/Goryo"
+        },
+        "hantu": {
+            "name": "hantu",
+            "evidence": [
+                "Empreintes",
+                "Orbes fantômatiques",
+                "Températures glaciales"
+            ],
+            "strength": "Rapide dans les pièces froides",
+            "weakness": "Lent dans les pièces chaudes",
+            "wiki": "https://phasmophobia.fandom.com/wiki/Hantu"
+        },
+        "myling": {
+            "name": "myling",
+            "evidence": [
+                "EMF 5",
+                "Empreintes",
+                "Écritures fantômatiques"
+            ],
+            "strength": "Plus silencieux durant la chasse",
+            "weakness": "Émet plus de son paranormal",
+            "wiki": "https://phasmophobia.fandom.com/wiki/Myling"
+        },
+        "ombre": {
+            "name": "ombre",
+            "evidence": [
+                "EMF 5",
+                "Écritures fantômatiques",
+                "Températures glaciales"
+            ],
+            "strength": "Timide, plus difficile à trouver",
+            "weakness": "N'attaque pas s'il y a plusieurs joueurs à proximité",
+            "wiki": "https://phasmophobia.fandom.com/wiki/Shade"
+        },
+        "oni": {
+            "name": "oni",
+            "evidence": [
+                "EMF 5",
+                "Températures glaciales",
+                "Projecteur DOTS"
+            ],
+            "strength": "Plus actif si les joueurs font bouger des objets rapidement",
+            "weakness": "Plus actif le rend plus facile à trouver",
+            "wiki": "https://phasmophobia.fandom.com/wiki/Oni"
+        },
+        "poltergeist": {
+            "name": "poltergeist",
+            "evidence": [
+                "Spirit box",
+                "Empreintes",
+                "Écritures fantômatiques"
+            ],
+            "strength": "Lance plusieurs objets à la fois",
+            "weakness": "Inefficace dans une pièce vide",
+            "wiki": "https://phasmophobia.fandom.com/wiki/Poltergeist"
+        },
+        "revenant": {
+            "name": "revenant",
+            "evidence": [
+                "Orbes fantômatiques",
+                "Écritures fantômatiques",
+                "Températures glaciales"
+            ],
+            "strength": "Plus rapide lors d'une attaque",
+            "weakness": "Très lent si sa cible est cachée",
+            "wiki": "https://phasmophobia.fandom.com/wiki/Revenant"
+        },
+        "spectre": {
+            "name": "spectre",
+            "evidence": [
+                "EMF 5",
+                "Spirit box",
+                "Projecteur DOTS"
+            ],
+            "strength": "Ne laisse pas de trace de pas",
+            "weakness": "Réaction toxique au sel",
+            "wiki": "https://phasmophobia.fandom.com/wiki/Wraith"
+        },
+        "yokai": {
+            "name": "yokai",
+            "evidence": [
+                "Spirit box",
+                "Orbes fantômatiques",
+                "Projecteur DOTS"
+            ],
+            "strength": "Plus de chances d'attaquer en parlant près de lui",
+            "weakness": "Pendant l'attaque, il n'entend que de proche",
+            "wiki": "https://phasmophobia.fandom.com/wiki/Yokai"
+        },
+        "yurei": {
+            "name": "yurei",
+            "evidence": [
+                "Orbes fantômatiques",
+                "Températures glaciales",
+                "Projecteur DOTS"
+            ],
+            "strength": "Effet plus fort sur la santé mentale",
+            "weakness": "L'encens l'empêche de se promener",
+            "wiki": "https://phasmophobia.fandom.com/wiki/Yurei"
+        }
+    }
+}

@@ -1,0 +1,104 @@
+{
+	"fip": {
+		"name": "FIP Radio",
+		"stream": "http://icecast.radiofrance.fr/fip-midfi.mp3",
+		"alt": [
+			"fip",
+			"fipradio",
+			"fip_radio"
+		],
+		"url": "https://www.fip.fr/"
+	},
+	"rfm": {
+		"name": "RFM",
+		"stream": "http://ais-live.cloud-services.paris:8000/rfm.mp3",
+		"alt": [
+			"rfm"
+		],
+		"url": "http://www.rfm.fr/"
+	},
+	"inter": {
+		"name": "France Inter",
+		"stream": "http://icecast.radiofrance.fr/franceinter-midfi.mp3",
+		"alt": [
+			"inter",
+			"franceinter",
+			"france_inter"
+		],
+		"url": "https://www.franceinter.fr/"
+	},
+	"nrj": {
+		"name": "NRJ",
+		"stream": "http://cdn.nrjaudio.fm/audio1/fr/30001/mp3_128.mp3?origine=fluxradios",
+		"alt": [
+			"nrj"
+		],
+		"url": "https://www.nrj.fr/"
+	},
+	"classic": {
+		"name": "Radio Classique",
+		"stream": "http://radioclassique.ice.infomaniak.ch/radioclassique-high.mp3",
+		"alt": [
+			"classic",
+			"classique",
+			"radio_classique"
+		],
+		"url": "https://www.radioclassique.fr/"
+	},
+	"jazz": {
+		"name": "Jazz Radio",
+		"stream": "http://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+		"alt": [
+			"jazz",
+			"jazz_radio",
+			"radio_jazz"
+		],
+		"url": "https://www.jazzradio.fr/"
+	},
+	"generation": {
+		"name": "Generation",
+		"stream": "http://generationfm.ice.infomaniak.ch/generationfm-high.mp3",
+		"alt": [
+			"generation",
+			"gen",
+			"gene"
+		],
+		"url": "https://generations.fr/"
+	},
+	"skyrock": {
+		"name": "Skyrock",
+		"stream": "http://www.skyrock.fm/stream.php/tunein16_128mp3.mp3",
+		"alt": [
+			"skyrock",
+			"sky"
+		],
+		"url": "https://skyrock.fm/"
+	},
+	"culture": {
+		"name": "France Culture",
+		"stream": "http://icecast.radiofrance.fr/franceculture-midfi.mp3",
+		"alt": [
+			"culture",
+			"france_culture",
+			"cult"
+		],
+		"url": "https://www.franceculture.fr/"
+	},
+	"nostalgie": {
+		"name": "Nostalgie",
+		"stream": "http://scdn.nrjaudio.fm/adwz2/fr/30601/mp3_128.mp3?origine=fluxradios",
+		"alt": [
+			"nostalgie"
+		],
+		"url": "https://www.nostalgie.fr/"
+	},
+	"mradio": {
+		"name": "M Radio",
+		"stream": "http://mfm.ice.infomaniak.ch/mfm-128.mp3",
+		"alt": [
+			"mradio",
+			"mfm"
+		],
+		"url": "https://mradio.fr/"
+	}
+}
