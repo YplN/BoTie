@@ -9,6 +9,7 @@
                 "goryo",
                 "hantu",
                 "myling",
+                "obake",
                 "poltergeist"
             ],
             "wiki": "https://phasmophobia.fandom.com/wiki/Fingerprints",
@@ -19,9 +20,12 @@
                 "djinn",
                 "esprit",
                 "goryo",
+                "jumeaux",
                 "myling",
+                "obake",
                 "ombre",
                 "oni",
+                "raiju",
                 "spectre"
             ],
             "wiki": "https://phasmophobia.fandom.com/wiki/EMF_Level_5",
@@ -33,6 +37,7 @@
                 "fantôme",
                 "goryo",
                 "oni",
+                "raiju",
                 "spectre",
                 "yokai",
                 "yurei"
@@ -45,8 +50,10 @@
                 "djinn",
                 "démon",
                 "hantu",
+                "jumeaux",
                 "ombre",
                 "oni",
+                "onryo",
                 "revenant",
                 "yurei"
             ],
@@ -71,6 +78,9 @@
                 "banshee",
                 "cauchemar",
                 "hantu",
+                "obake",
+                "onryo",
+                "raiju",
                 "revenant",
                 "yokai",
                 "yurei"
@@ -83,7 +93,9 @@
                 "cauchemar",
                 "esprit",
                 "fantôme",
+                "jumeaux",
                 "poltergeist",
+                "onryo",
                 "spectre",
                 "yokai"
             ],
@@ -121,7 +133,7 @@
                 "Empreintes",
                 "Températures glaciales"
             ],
-            "strength": "Plus rapide",
+            "strength": "Plus rapide si la cible est loin",
             "weakness": "Aucune capacité si le courant est coupé",
             "wiki": "https://phasmophobia.fandom.com/wiki/Jinn"
         },
@@ -133,7 +145,7 @@
                 "Températures glaciales"
             ],
             "strength": "Attaque plus fréquemment",
-            "weakness": "La planche de Ouika ne fait pas perdre de santé mentale",
+            "weakness": "La planche de Ouika fait moins perdre de santé mentale",
             "wiki": "https: //phasmophobia.fandom.com/wiki/Demon"
         },
         "esprit": {
@@ -143,8 +155,8 @@
                 "Spirit box",
                 "Écritures fantômatiques"
             ],
-            "strength": "Les bâtons d'encens l'empêche d'attaquer un certain temps",
-            "weakness": "Aucune",
+            "strength": "Aucune",
+            "weakness": "Les bâtons d'encens l'empêche d'attaquer un certain temps",
             "wiki": "https://phasmophobia.fandom.com/wiki/Spirit"
         },
         "fantôme": {
@@ -165,7 +177,7 @@
                 "Empreintes",
                 "Projecteur DOTS"
             ],
-            "strength": "Se montre seulement si personne de près",
+            "strength": "Se montre qu'à la caméra si personne à proximité",
             "weakness": "Ne s'éloigne pas de sa pièce",
             "wiki": "https://phasmophobia.fandom.com/wiki/Goryo"
         },
@@ -179,6 +191,17 @@
             "strength": "Rapide dans les pièces froides",
             "weakness": "Lent dans les pièces chaudes",
             "wiki": "https://phasmophobia.fandom.com/wiki/Hantu"
+        },
+        "jumeaux": {
+            "name": "les Jumeaux",
+            "evidence": [
+                "EMF 5",
+                "Spirit box",
+                "Températures glaciales"
+            ],
+            "strength": "Chaque jumeau peut s'énever et attaquer sa proie LINKTODO",
+            "weakness": "Les jumeaux font souvent les mêmes intéraction en simultané",
+            "wiki": "https://phasmophobia.fandom.com/wiki/Myling"
         },
         "myling": {
             "name": "myling",
@@ -202,6 +225,17 @@
             "weakness": "N'attaque pas s'il y a plusieurs joueurs à proximité",
             "wiki": "https://phasmophobia.fandom.com/wiki/Shade"
         },
+        "obake": {
+            "name": "obake",
+            "evidence": [
+                "EMF 5",
+                "Empreintes",
+                "Orbes fantômatiques"
+            ],
+            "strength": "Laisse rarement de trace quand il intéragit avec l'environnement LINKTODO",
+            "weakness": "Peut se transformer, laissant des preuves uniques.",
+            "wiki": "https://phasmophobia.fandom.com/wiki/Yokai"
+        },
         "oni": {
             "name": "oni",
             "evidence": [
@@ -209,9 +243,20 @@
                 "Températures glaciales",
                 "Projecteur DOTS"
             ],
-            "strength": "Plus actif si les joueurs font bouger des objets rapidement",
+            "strength": "Plus actif si plusieurs joueurs qui font bouger des objets rapidement",
             "weakness": "Plus actif le rend plus facile à trouver",
             "wiki": "https://phasmophobia.fandom.com/wiki/Oni"
+        },
+        "onryo": {
+            "name": "onryo",
+            "evidence": [
+                "Spirit box",
+                "Orbes fantômatiques",
+                "Températures glaciales"
+            ],
+            "strength": "Eteindre une flamme peut le faire attaquer LINKTODO",
+            "weakness": "Quand menacé, chasse moins",
+            "wiki": "https://phasmophobia.fandom.com/wiki/Yokai"
         },
         "poltergeist": {
             "name": "poltergeist",
@@ -221,8 +266,19 @@
                 "Écritures fantômatiques"
             ],
             "strength": "Lance plusieurs objets à la fois",
-            "weakness": "Inefficace dans une pièce vide",
+            "weakness": "Affaibli dans une pièce vide",
             "wiki": "https://phasmophobia.fandom.com/wiki/Poltergeist"
+        },
+        "raiju": {
+            "name": "raiju",
+            "evidence": [
+                "EMF 5",
+                "Orbes fantômatiques",
+                "Projecteur DOTS"
+            ],
+            "strength": "Les instruments électroniques le rendent plus rapide LINKTODO",
+            "weakness": "Les instruments électroniques sont perturbés",
+            "wiki": "https://phasmophobia.fandom.com/wiki/Yokai"
         },
         "revenant": {
             "name": "revenant",
